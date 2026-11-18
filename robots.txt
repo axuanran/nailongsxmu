@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# 非官方趣味站点，不发布任何学校官方信息。
+# 官方信息请以 https://www.sxmu.edu.cn/ 为准。

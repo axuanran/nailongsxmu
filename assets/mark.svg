@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="山医奶站印章：一个圆章，中间写着奶字">
+  <circle cx="120" cy="120" r="112" fill="#fffdf6" stroke="#241f16" stroke-width="8"/>
+  <circle cx="120" cy="120" r="95" fill="none" stroke="#241f16" stroke-width="2" stroke-dasharray="3 9" opacity="0.55"/>
+  <text x="120" y="146" text-anchor="middle" font-family="Songti SC, Noto Serif SC, Source Han Serif SC, SimSun, serif" font-size="104" font-weight="700" fill="#241f16">奶</text>
+  <g transform="translate(120 191)">
+    <rect x="-15" y="-15" width="30" height="30" rx="8" fill="#c0392b"/>
+    <path d="M-8 0h16M0 -8v16" stroke="#fffdf6" stroke-width="4.5" stroke-linecap="round"/>
+  </g>
+</svg>

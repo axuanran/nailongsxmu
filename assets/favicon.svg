@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="山医奶站">
+  <rect width="64" height="64" rx="14" fill="#241f16"/>
+  <rect x="5" y="5" width="54" height="54" rx="10" fill="#ffd23f"/>
+  <text x="32" y="45" text-anchor="middle" font-family="Songti SC, Noto Serif SC, SimSun, serif" font-size="34" font-weight="700" fill="#241f16">奶</text>
+</svg>

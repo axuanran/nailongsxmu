@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>中国奶龙医科大学 · 山医奶站（非官方）</title>
+  <meta name="description" content="山医奶站：中国奶龙医科大学.com 与 山西奶蛙大学.com 两个域名的趣味入口。学生自建、非官方；点 GO 进入山西医科大学官网。">
+  <meta name="theme-color" content="#ffd23f">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="中国奶龙医科大学 · 山医奶站">
+  <meta property="og:description" content="非官方 · 学生自建。两个域名，一个奶站；点 GO 去真的山西医科大学。">
+  <link rel="canonical" href="https://xn--fiq06jptdmvcili3hmr1fyf9c.com/">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+
+  <p class="ribbon">非官方 · 学生自建 · 与山西医科大学无隶属关系 · 点 GO 才去真的学校</p>
+
+  <header class="masthead">
+    <a class="brand" href="index.html">
+      <img src="assets/mark.svg" alt="" width="40" height="40">
+      <span>山医奶站</span>
+    </a>
+    <nav class="nav" aria-label="站内导航">
+      <a href="#campuses">校区</a>
+      <a href="#milk">奶力</a>
+      <a href="#rules">守则</a>
+      <a href="terms.html">协议</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">SHANXI MEDICAL UNIVERSITY · 学生整活站</p>
+        <h1>
+          中国奶龙
+          <span class="outline">医科大学</span>
+        </h1>
+        <p class="aka">又名「山西奶蛙大学」 · 山医奶站</p>
+        <p class="lede">
+          学校 1919 年创建于并州，校门口没有奶龙，域名里有。<br>
+          两个域名的管理者给山医搭的趣味入口：点 GO，去真的山西医科大学。
+        </p>
+
+        <div class="cta-row">
+          <a class="btn btn-go" href="https://www.sxmu.edu.cn/" target="_blank" rel="noopener noreferrer">
+            GO
+            <span>去学校官网 ↗</span>
+          </a>
+          <button class="btn" id="join-group" type="button">加入奶群</button>
+          <a class="btn" href="https://nai.amoe.cc/" target="_blank" rel="noopener noreferrer">更多奶站 ↗</a>
+        </div>
+
+        <ul class="stats">
+          <li><b>2</b><span>个域名</span></li>
+          <li><b>2</b><span>个校区</span></li>
+          <li><b>1422</b><span>亩</span></li>
+          <li><b id="milk-total">0</b><span>我的奶力</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-art">
+        <button class="seal-card" id="seal" type="button" aria-label="按一下印章，奶龙出没">
+          <span class="seal-ring" aria-hidden="true"></span>
+          <img src="assets/mark.svg" alt="山医奶站印章" width="180" height="180">
+          <span class="seal-caption">奶站 · 非官方</span>
+        </button>
+        <p class="art-note">
+          中国奶龙医科大学.com<br>
+          山西奶蛙大学.com
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="campuses">
+      <h2 class="sec-head"><span class="num">01</span> 两个校区 · 一种奶味</h2>
+      <p class="sec-note">校区描述纯属整活，这里也只写了两个；一切以<a href="https://www.sxmu.edu.cn/" target="_blank" rel="noopener noreferrer">官网</a>为准。</p>
+
+      <div class="cards two">
+        <article class="card">
+          <h3>迎泽</h3>
+          <p class="card-tag">城里</p>
+          <p>出了校门就是太原的胃。解剖背不下去的时候，先去吃一碗面。</p>
+        </article>
+        <article class="card">
+          <h3>中都</h3>
+          <p class="card-tag">新校区</p>
+          <p>榆次的风很大，实验课排得很满，奶力攒得很慢。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="milk">
+      <h2 class="sec-head"><span class="num">02</span> 奶力交卷</h2>
+
+      <div class="game">
+        <div class="game-copy">
+          <p class="game-title">按一下，随机交一局。</p>
+          <p>
+            成绩只写在你自己的浏览器里（localStorage），不上传、不进官方排行榜，
+            所以刷分没有任何意义——但人总得有点仪式感。
+          </p>
+          <p class="fine">
+            想真上榜？去 <a href="https://naiwa.win/s/32" target="_blank" rel="noopener noreferrer">奶力排行榜 · 山西医科大学页</a>
+            玩一局小游戏，本校的奶力就从你这里开张。
+          </p>
+        </div>
+        <div class="game-panel">
+          <button class="btn btn-submit" id="submit-milk" type="button">交卷</button>
+          <output class="milk-out" id="milk-result" aria-live="polite">还没交卷</output>
+          <p class="fine">本地累计：<b id="milk-local">0</b> 分</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="rules">
+      <h2 class="sec-head"><span class="num">03</span> 奶站守则</h2>
+
+      <div class="cards three">
+        <article class="card">
+          <h3>这是学生自建站</h3>
+          <p>
+            由两个域名的管理者维护，与山西医科大学及任何附属医院没有隶属关系。
+            本站不发布招生、教务、就医等任何官方信息，相关内容请以学校官网为准。
+          </p>
+        </article>
+        <article class="card">
+          <h3>两个域名，一个奶站</h3>
+          <p>
+            <b>中国奶龙医科大学.com</b> 与 <b>山西奶蛙大学.com</b> 都指向这里。
+            域名会到期，早八也会；记不住就收藏。
+          </p>
+        </article>
+        <article class="card">
+          <h3>纠错与投稿</h3>
+          <p>
+            QQ 群「<b>山西医科大学奶龙同好会</b>」：<b>1125198405</b>，
+            点上面<span class="nowrap">「加入奶群」</span>直接进群。
+            群号、友链、图标想更新，去群里 @ 站长。
+            页面上的校区描述是整活，不是招生简章。
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-links">
+        <a href="https://www.sxmu.edu.cn/" target="_blank" rel="noopener noreferrer">山西医科大学官网</a>
+        <a href="https://nai.amoe.cc/" target="_blank" rel="noopener noreferrer">NaiList · 奶群与奶站</a>
+        <a href="https://naiwa.win/s/32" target="_blank" rel="noopener noreferrer">山医奶力榜</a>
+        <a href="https://xn--yuso0z33ulibdy3f.com/" target="_blank" rel="noopener noreferrer">奶龙教育网</a>
+        <a href="https://xn--yuso35evj0a.com/" target="_blank" rel="noopener noreferrer">奶龙社</a>
+        <a href="terms.html">用户协议</a>
+        <a href="privacy.html">隐私政策</a>
+      </div>
+      <p class="footer-line">
+        © <span id="year">2026</span> 山医奶站 · 学生自建，非学校官方网站
+      </p>
+      <p class="footer-line dim">
+        域名管理者：本站维护者 · 最近更新 2026-11 · v1.0.0
+      </p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="assets/app.js" defer></script>
+</body>
+</html>
