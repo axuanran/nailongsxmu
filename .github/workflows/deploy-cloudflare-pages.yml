@@ -35,10 +35,20 @@ jobs:
             echo "ready=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # 只把站点文件放进 .deploy，避免把 .git / .github / README 一起传上去
+      - name: 准备静态目录
+        run: |
+          mkdir -p .deploy
+          rsync -a --exclude '.git' --exclude '.github' --exclude '.deploy' \
+                --exclude 'node_modules' --exclude 'README.md' --exclude '.gitignore' \
+                ./ .deploy/
+          echo "待部署文件："
+          find .deploy -type f | sort
+
       - name: 部署
         if: steps.guard.outputs.ready == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy . --project-name=sxmu-nailong --branch=main
+          command: pages deploy .deploy --project-name=sxmu-nailong --branch=main
