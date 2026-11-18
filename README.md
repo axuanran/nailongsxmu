@@ -1,8 +1,10 @@
 # 山医奶站
 
+[![Deploy · Cloudflare Pages](https://github.com/axuanran/nailongsxmu/actions/workflows/deploy-cloudflare-pages.yml/badge.svg)](https://github.com/axuanran/nailongsxmu/actions/workflows/deploy-cloudflare-pages.yml)
+
 给山西医科大学做的非官方「奶龙大学」小站：一对中文域名（`中国奶龙医科大学.com` / `山西奶蛙大学.com`）共用的落地页。
 
-纯静态，零依赖、零构建，**把整个文件夹拖到 Cloudflare Pages 就能上线**。
+纯静态，零依赖、零构建，**把整个文件夹拖到 Cloudflare Pages 就能上线**；仓库里也带了 GitHub Actions，push 即部署。
 
 ---
 
@@ -16,6 +18,8 @@ nailongsxmu/
 ├─ 404.html            找不到页面
 ├─ robots.txt
 ├─ _headers            Cloudflare Pages 安全响应头（含 CSP）
+├─ .github/workflows/
+│  └─ deploy-cloudflare-pages.yml   push 到 main 自动部署
 ├─ assets/
 │  ├─ styles.css       全站样式（含响应式、prefers-reduced-motion）
 │  ├─ app.js           交互：奶群按钮 / 奶力交卷 / 盖章彩蛋
