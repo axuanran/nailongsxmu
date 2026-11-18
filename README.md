@@ -7,6 +7,7 @@
 纯静态，零依赖、零构建，**把整个文件夹拖到 Cloudflare Pages 就能上线**；仓库里也带了 GitHub Actions，push 即部署。
 
 > 页面、样式与文案由 DeepSeek 协助完成（页脚有标注）。
+> 维护者：Xuanran（QQ 2286451383）。
 
 ---
 
