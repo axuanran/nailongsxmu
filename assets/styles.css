@@ -96,20 +96,6 @@ a {
   top: 0;
 }
 
-/* ---------- 顶部条 ---------- */
-
-.ribbon {
-  margin: 0;
-  padding: 9px var(--pad);
-  background: var(--ink);
-  color: var(--yellow);
-  font-family: var(--font-mono);
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-align: center;
-  line-height: 1.5;
-}
-
 /* ---------- 站头 ---------- */
 
 .masthead {
@@ -822,11 +808,6 @@ h1 {
 }
 
 @media (max-width: 520px) {
-  .ribbon {
-    font-size: 10px;
-    letter-spacing: 0.08em;
-  }
-
   .cta-row .btn {
     flex: 1 1 auto;
     justify-content: center;
