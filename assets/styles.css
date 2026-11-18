@@ -710,6 +710,14 @@ h1 {
   color: #93896f;
 }
 
+.footer-line.credit {
+  margin-top: 4px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: #9a907a;
+}
+
 .footer :focus-visible {
   outline-color: var(--yellow);
 }
